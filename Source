@@ -830,7 +830,7 @@ local function rgb(hex)
 	return Color3.new(r, g, b)
 end
 
-local Window = library:AddWindow("welcome dtt haters | szze#6220",
+local Window = library:AddWindow("Welcome! Brought to u by Multi Hub",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(500, 563),
