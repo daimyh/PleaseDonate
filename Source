@@ -1,14 +1,8 @@
---[[
-	This property is protected.
-	You are not allowed to claim this as your own.
-	Removal of initial credits to the authors is prohibited.
-]]
-
 if hookmetamethod and typeof(hookmetamethod) == 'function' then
 	local oldHook
 	oldHook = hookmetamethod(game, "__namecall", function(self, ...)
 		if getnamecallmethod() == "Kick" then
-			return warn('haha bypassed')
+			return warn('bypassed!')
 		end
 		return oldHook(self, ...)
 	end)
@@ -33,8 +27,8 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 		writefile('PromptedDiscordCFCommunityPD.txt', game:GetService('HttpService'):JSONEncode('hi'))
 		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
 		Module.Prompt({
-			invite = "https://discord.gg/fNeggqVMZs",
-			name = "CF Community",
+			invite = "https://discord.gg/n8V8GAV8sW",
+			name = "Multi Hub",
 		})
 	end
 end
@@ -191,7 +185,7 @@ local BetterRainbowColorHex = {
 	"#FF0031",
 	"#FF001F"
 }
-print('TurningGlobe ily thanks for showcasing / szze#6220')
+print('Multi Hub is goated // good luck earning robux')
 if getgenv().loadedRR then
 	return
 else
@@ -1741,7 +1735,7 @@ msgdone.OnClientEvent:Connect(function(msgdata)
 	end)
 end)
 if game:GetService("CoreGui").imgui.Windows.Window.Title.Text == "Loading..." then
-	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "dtt haters hello | szze#6220"
+	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "Brought to you by Multi Hub"
 end
 while task.wait(getgenv().settings.serverHopDelay * 60) do
 	if not hopTimer then
