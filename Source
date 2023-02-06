@@ -1113,7 +1113,7 @@ webhookBox.Text = getgenv().settings.webhookBox
 webhookTab:AddLabel('Press Enter to Save')
 webhookTab:AddButton("Test", function()
 	if getgenv().settings.webhookBox then
-		oldWebhook("webhook works | dotgg")
+		oldWebhook("webhook works | Multi Hub: https://discord.gg/n8V8GAV8sW")
 	end
 end)
 
